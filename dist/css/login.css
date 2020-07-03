@@ -1,0 +1,288 @@
+.container {
+  width: 1200px;
+  margin: 0 auto; }
+
+#header {
+  padding: 22px 0;
+  height: 44px;
+  background-color: #fff; }
+  #header .logo h1 {
+    display: block;
+    float: left;
+    width: 110px;
+    height: 44px;
+    font-size: 28px; }
+    #header .logo h1 a {
+      display: block;
+      color: #f40; }
+      #header .logo h1 a .icon-taobaowang {
+        position: relative;
+        font-size: 36px;
+        top: -2px; }
+      #header .logo h1 a .icon-taobao_site {
+        font-size: 50px;
+        position: relative;
+        top: -30px; }
+  #header .logo .tips {
+    float: right;
+    line-height: 44px;
+    color: #666;
+    font-size: 12px;
+    text-decoration: none;
+    transition: all .4s;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -o-transition: all .4s; }
+    #header .logo .tips:hover {
+      color: #f40; }
+    #header .logo .tips .icon-jianyi {
+      font-size: 14px;
+      color: #f40;
+      margin-right: 5px; }
+
+.content {
+  position: relative;
+  width: 100%;
+  min-height: 600px; }
+  .content .banner_bg {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 100%;
+    height: 600px;
+    background-image: url("../imgs/login_banner.jpg"); }
+    .content .banner_bg .login_box {
+      width: 350px;
+      min-height: 350px;
+      padding: 25px 25px 23px;
+      box-sizing: border-box;
+      color: #6c6c6c;
+      position: absolute;
+      top: 120px;
+      right: 60px;
+      width: 350px;
+      background-color: rgba(255, 255, 255, 0.9); }
+      .content .banner_bg .login_box .login_content {
+        width: 100%;
+        padding-top: 2px;
+        box-sizing: border-box;
+        margin: 0 auto; }
+        .content .banner_bg .login_box .login_content .login_tab {
+          text-align: left;
+          margin-bottom: 20px;
+          margin-top: 4px; }
+          .content .banner_bg .login_box .login_content .login_tab a {
+            height: 18px;
+            line-height: 5px;
+            font-size: 16px;
+            color: #3c3c3c;
+            margin: 9px 10px 0 0;
+            font-weight: 700;
+            display: inline-block; }
+          .content .banner_bg .login_box .login_content .login_tab .mine {
+            border-bottom: 2px solid #000; }
+        .content .banner_bg .login_box .login_content .login_form {
+          position: relative;
+          margin-bottom: 20px;
+          font-size: 14px; }
+          .content .banner_bg .login_box .login_content .login_form .form_field {
+            position: relative;
+            margin-bottom: 20px;
+            font-size: 14px; }
+            .content .banner_bg .login_box .login_content .login_form .form_field .form_field_icon {
+              width: 42px;
+              height: 42px;
+              line-height: 40px;
+              text-align: center;
+              color: #fff;
+              position: absolute;
+              left: 0;
+              top: 0;
+              background-color: #ccc; }
+              .content .banner_bg .login_box .login_content .login_form .form_field .form_field_icon .icon-yonghuming {
+                font-size: 24px;
+                line-height: 40px;
+                text-align: center;
+                color: #fff; }
+              .content .banner_bg .login_box .login_content .login_form .form_field .form_field_icon .icon-mima {
+                font-size: 24px;
+                line-height: 40px;
+                text-align: center;
+                color: #fff; }
+            .content .banner_bg .login_box .login_content .login_form .form_field .form_input_wrap .ipt {
+              border: 1px solid #ccc;
+              height: 42px;
+              outline: none;
+              font-size: 14px;
+              padding-left: 50px;
+              width: 100%;
+              box-sizing: border-box; }
+            .content .banner_bg .login_box .login_content .login_form .form_field .form_input_wrap .psd {
+              border: 1px solid #ccc;
+              height: 42px;
+              outline: none;
+              font-size: 14px;
+              padding-left: 50px;
+              width: 100%;
+              box-sizing: border-box; }
+          .content .banner_bg .login_box .login_content .login_form .form_btn {
+            width: 100%; }
+            .content .banner_bg .login_box .login_content .login_form .form_btn .btn {
+              background-color: #f40;
+              border-color: #f40;
+              border: 1px solid #ff9000;
+              border-radius: 6px;
+              font-size: 16px;
+              height: 42px;
+              line-height: 42px;
+              outline: none;
+              color: #fff;
+              width: 100%;
+              cursor: pointer;
+              font-weight: bold;
+              -webkit-transition: all .8s;
+              -moz-transition: all .8s;
+              -o-transition: all .8s;
+              transition: all .8s; }
+              .content .banner_bg .login_box .login_content .login_form .form_btn .btn:hover {
+                background-color: #f52b00; }
+          .content .banner_bg .login_box .login_content .login_form .form_link {
+            margin-top: 16px; }
+            .content .banner_bg .login_box .login_content .login_form .form_link a {
+              color: #6c6c6c;
+              font-size: 12px;
+              display: inline-block; }
+            .content .banner_bg .login_box .login_content .login_form .form_link .icon-weibo {
+              color: #e52425;
+              font-size: 16px;
+              margin-right: 3px; }
+            .content .banner_bg .login_box .login_content .login_form .form_link .icon-zhifubao {
+              color: #1ba9ee;
+              font-size: 16px;
+              margin-right: 3px; }
+          .content .banner_bg .login_box .login_content .login_form .form_lost {
+            margin-top: 16px;
+            text-align: right; }
+            .content .banner_bg .login_box .login_content .login_form .form_lost a {
+              display: inline-block;
+              margin-left: 10px;
+              color: #6c6c6c;
+              font-size: 12px; }
+
+#footer {
+  min-height: 150px;
+  background: #fff;
+  font-size: 12px;
+  margin-top: 60px; }
+  #footer .footer_nav {
+    padding-top: 7px;
+    border-top: 1px solid #ddd;
+    margin-bottom: 8px;
+    line-height: 27px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+    overflow: hidden; }
+    #footer .footer_nav span {
+      color: #9c9c9c;
+      margin: 0 4px; }
+      #footer .footer_nav span a {
+        white-space: nowrap;
+        color: #6c6c6c;
+        text-decoration: none;
+        transition: all .2s;
+        -webkit-transition: all .2s;
+        -moz-transition: all .2s;
+        -o-transition: all .2s; }
+        #footer .footer_nav span a:hover {
+          color: #f40; }
+    #footer .footer_nav b {
+      margin: 0 3px;
+      font-weight: 400;
+      color: #ddd; }
+  #footer .copyright p {
+    padding-bottom: 8px;
+    overflow: hidden; }
+    #footer .copyright p span {
+      margin: 0 4px;
+      color: #9c9c9c; }
+      #footer .copyright p span:hover a {
+        color: #f40; }
+      #footer .copyright p span a {
+        white-space: nowrap;
+        color: #6c6c6c;
+        transition: all .4s;
+        -webkit-transition: all .4s;
+        -moz-transition: all .4s;
+        -o-transition: all .4s; }
+      #footer .copyright p span .footer_icon {
+        background-image: url("../imgs/footer_sprite.jpg");
+        background-repeat: no-repeat;
+        vertical-align: middle;
+        display: inline-block; }
+    #footer .copyright p b {
+      margin: 0 3px;
+      font-weight: 400;
+      color: #ddd; }
+    #footer .copyright p em {
+      margin-left: 30px;
+      font-style: normal;
+      color: #9c9c9c; }
+    #footer .copyright p .i1 {
+      background-position: -861px 0px;
+      width: 20px;
+      height: 20px;
+      margin: 0 4px; }
+  #footer .footer_foot {
+    margin-left: auto;
+    margin-right: auto; }
+    #footer .footer_foot span {
+      margin: 0 4px;
+      color: #9c9c9c; }
+      #footer .footer_foot span a {
+        margin-right: 15px;
+        height: 40px;
+        background-repeat: no-repeat; }
+      #footer .footer_foot span .police {
+        background-image: url("../imgs/110.gif");
+        width: 36px;
+        display: inline-block;
+        vertical-align: middle; }
+      #footer .footer_foot span .dis_info {
+        background-image: url("../imgs/dis_info.png");
+        background-position: 0px -18px;
+        width: 250px;
+        display: inline-block;
+        vertical-align: middle; }
+      #footer .footer_foot span .footer_icon {
+        background-image: url("../imgs/footer_sprite.jpg");
+        background-repeat: no-repeat;
+        vertical-align: middle;
+        display: inline-block; }
+      #footer .footer_foot span .i2 {
+        background-position: 0px 0px;
+        width: 30px; }
+      #footer .footer_foot span .i3 {
+        background-position: -40px 0px;
+        width: 33px; }
+      #footer .footer_foot span .i4 {
+        background-position: -80px 0px;
+        width: 50px; }
+      #footer .footer_foot span .i5 {
+        background-position: -140px 0px;
+        width: 83px; }
+      #footer .footer_foot span .i6 {
+        background-position: -650px 0px;
+        width: 105px; }
+      #footer .footer_foot span .i7 {
+        background-position: -345px 0px;
+        width: 82px; }
+      #footer .footer_foot span .i8 {
+        background-position: -761px 0px;
+        width: 97px; }
+      #footer .footer_foot span .i9 {
+        background-position: -884px 0px;
+        width: 249px; }

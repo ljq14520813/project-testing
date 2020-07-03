@@ -10,3 +10,13 @@
         height: 200px;
     }
 }
+
+.img-wrapper img{
+    background:#fff;
+    opacity:.9;
+    filter:alpha(opacity=90);
+    -webkit-transition:all .2s;
+    -moz-transition:all .2s;
+    -o-transition:all .2s;
+    transition:all .2s
+}

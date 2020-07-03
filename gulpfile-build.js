@@ -42,6 +42,18 @@ async function sass(){
     .pipe(dest('./rev/css'))
 }
 
+async function font(){
+    src('./src/font/*.*')
+    .pipe(dest('./dist/font'))
+    .pipe(load.connect.reload())
+}
+
+async function base(){
+    src('./src/*.*')
+    .pipe(dest('./dist'))
+    .pipe(load.connect.reload())
+}
+
 
 //  因为实际过程中该方法通常比较慢，因此要用promise一起辅助完成.
 // async function html(){
@@ -80,4 +92,6 @@ task('build',async()=>{
     await script();
     await sass();
     await html();
+    await font();
+    await base();
 })

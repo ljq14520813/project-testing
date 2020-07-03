@@ -34,6 +34,18 @@ task('sass',async()=>{
     .pipe(load.connect.reload())
 })
 
+task('font',async()=>{
+    src('./src/font/*.*')
+    .pipe(dest('./dist/font'))
+    .pipe(load.connect.reload())
+})
+
+task('base',async()=>{
+    src('./src/*.*')
+    .pipe(dest('./dist'))
+    .pipe(load.connect.reload())
+})
+
 task('connect',async()=>{
     load.connect.server({
         root:'./dist',
@@ -47,7 +59,9 @@ task('watch',async()=>{
     watch('./src/sass/*.scss',series('sass'));
     watch('./src/script/*.js',series('script'));
     watch('./src/imgs/*.*',series('img'));
+    watch('./src/font/iconfont.css',series('font'));
+    watch('./src/*.*',series('base'));
 })
 
 //构建开发版本，启动项目
-task('dev',series('del','html','img','script','sass','connect','watch'));
+task('dev',series('del','html','img','script','sass','font','base','connect','watch'));

@@ -1,0 +1,714 @@
+.container {
+  width: 1140px;
+  margin: 0 auto; }
+
+#top {
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #eee; }
+  #top .top_inner {
+    height: 35px;
+    line-height: 35px; }
+    #top .top_inner .t_left {
+      float: left; }
+      #top .top_inner .t_left select {
+        float: left;
+        height: 35px;
+        line-height: 35px;
+        border: 0;
+        outline: none;
+        font-size: 14px;
+        color: #3c3c3c;
+        padding-right: 10px;
+        background-color: #f5f5f5; }
+      #top .top_inner .t_left a {
+        display: block;
+        float: left;
+        height: 35px;
+        color: #666; }
+        #top .top_inner .t_left a:nth-child(2) {
+          margin-left: 10px;
+          color: #f40; }
+        #top .top_inner .t_left a:nth-child(3) {
+          margin-left: 8px; }
+          #top .top_inner .t_left a:nth-child(3):hover {
+            color: #f40; }
+        #top .top_inner .t_left a:nth-child(4) {
+          margin-left: 20px; }
+          #top .top_inner .t_left a:nth-child(4):hover {
+            color: #f40; }
+    #top .top_inner .t_right {
+      float: right;
+      line-height: 35px; }
+      #top .top_inner .t_right li {
+        float: left; }
+        #top .top_inner .t_right li:nth-child(1) {
+          margin-right: 12px; }
+        #top .top_inner .t_right li:nth-child(6) {
+          margin: 0 14px 0 20px;
+          color: #dedee3; }
+        #top .top_inner .t_right li a {
+          color: #6c6c6c;
+          font-size: 12px; }
+          #top .top_inner .t_right li a:hover {
+            color: #f40; }
+          #top .top_inner .t_right li a .icon-xiajiantou {
+            font-size: 12px;
+            margin: 0 12px; }
+          #top .top_inner .t_right li a .icon-gouwuche {
+            color: #f40;
+            font-size: 14px;
+            line-height: 0px; }
+          #top .top_inner .t_right li a .icon-shoucangjia {
+            font-size: 12px;
+            line-height: 0;
+            margin-right: 6px; }
+          #top .top_inner .t_right li a .icon-caidan {
+            font-size: 12px;
+            color: #f40;
+            margin-right: 8px; }
+
+#header {
+  background-color: #FFF;
+  width: 100%;
+  padding-top: 10px; }
+  #header .headerContent {
+    height: 60px;
+    box-sizing: border-box;
+    outline: none; }
+    #header .headerContent h1 {
+      color: #f40;
+      display: inline-block;
+      float: left;
+      word-wrap: break-word;
+      text-decoration: none !important;
+      font-size: 0;
+      margin-top: 5px;
+      cursor: pointer; }
+      #header .headerContent h1 a {
+        display: block;
+        width: 96px;
+        height: 40px; }
+        #header .headerContent h1 a img {
+          width: 100%;
+          height: 100%; }
+    #header .headerContent .moreMark {
+      display: inline-block;
+      position: relative;
+      float: left;
+      margin: 14px 20px; }
+      #header .headerContent .moreMark a {
+        position: relative;
+        display: block;
+        border: 1px solid #e2e2e2;
+        padding-left: 8px;
+        width: 62px;
+        height: 18px;
+        line-height: 18px;
+        _line-height: 22px;
+        color: #666;
+        background: #fff;
+        text-decoration: none !important; }
+        #header .headerContent .moreMark a .icon-youjiantou {
+          display: block;
+          position: absolute;
+          right: 8px;
+          top: 0;
+          width: 6px;
+          height: 6px; }
+    #header .headerContent .headerSearch {
+      margin-top: 10px;
+      float: right;
+      width: 427px;
+      position: relative; }
+      #header .headerContent .headerSearch .TBSearch {
+        width: 352px;
+        height: 30px;
+        box-sizing: border-box;
+        position: absolute; }
+        #header .headerContent .headerSearch .TBSearch .ipt {
+          width: 281px;
+          height: 30px;
+          border: 2px solid #f40;
+          border-right: none;
+          box-sizing: border-box;
+          position: absolute;
+          left: 0; }
+        #header .headerContent .headerSearch .TBSearch .btn {
+          box-sizing: border-box;
+          width: 71px;
+          height: 30px;
+          background-color: #f40;
+          color: #fff;
+          font-size: 14px;
+          border: none;
+          outline: none;
+          cursor: pointer;
+          left: 281px;
+          position: relative; }
+      #header .headerContent .headerSearch .localSearch {
+        margin-left: 3px; }
+        #header .headerContent .headerSearch .localSearch .searchThis {
+          width: 72px;
+          height: 30px;
+          line-height: 30px;
+          box-sizing: border-box;
+          background-color: #ffe4d0;
+          border: 1px solid #ffb086;
+          outline: none;
+          color: #f40;
+          position: absolute;
+          right: 0;
+          cursor: pointer; }
+
+#banner {
+  height: 150px;
+  width: auto !important;
+  background: url("../imgs/goodsDetailsBanner.jpg") no-repeat center; }
+  #banner .navWrap {
+    position: relative;
+    height: 150px; }
+    #banner .navWrap ul {
+      position: absolute;
+      left: 138px;
+      bottom: 0; }
+      #banner .navWrap ul li {
+        margin: 0 5.5px;
+        float: left; }
+        #banner .navWrap ul li a {
+          display: block;
+          min-width: 40px;
+          opacity: 0;
+          font-size: 18px; }
+
+#details {
+  position: relative;
+  margin-top: 10px;
+  color: #3C3C3C; }
+  #details .detailsBox {
+    margin-bottom: 20px;
+    border: 1px solid #E8E8E8; }
+    #details .detailsBox .dLeft {
+      float: left;
+      width: 100%; }
+      #details .detailsBox .dLeft .dInfo {
+        margin-right: 198px;
+        border-right: 1px solid #E8E8E8; }
+        #details .detailsBox .dLeft .dInfo .infoLeft {
+          float: left;
+          padding: 20px 0 20px 20px;
+          width: 400px;
+          position: relative;
+          margin-bottom: 18px;
+          z-index: 200; }
+          #details .detailsBox .dLeft .dInfo .infoLeft .normalPic {
+            width: 400px;
+            height: 400px;
+            overflow: hidden;
+            position: relative;
+            margin-bottom: 15px; }
+            #details .detailsBox .dLeft .dInfo .infoLeft .normalPic .show {
+              display: table-cell;
+              text-align: center; }
+            #details .detailsBox .dLeft .dInfo .infoLeft .normalPic a {
+              display: none;
+              vertical-align: middle;
+              text-align: center; }
+          #details .detailsBox .dLeft .dInfo .infoLeft .littlePic li {
+            float: left;
+            margin-right: 9px;
+            text-align: center;
+            width: 50px;
+            height: 50px;
+            border: 2px solid #fff;
+            -webkit-transition-property: border-color;
+            -moz-transition-property: border-color;
+            -o-transition-property: border-color;
+            transition-property: border-color;
+            -webkit-transition-duration: .2s;
+            -moz-transition-duration: .2s;
+            -o-transition-duration: .2s;
+            transition-duration: .2s;
+            overflow: hidden;
+            position: relative; }
+            #details .detailsBox .dLeft .dInfo .infoLeft .littlePic li a {
+              display: block; }
+          #details .detailsBox .dLeft .dInfo .infoLeft .littlePic .selected {
+            border-color: #f40; }
+          #details .detailsBox .dLeft .dInfo .infoLeft .bigPic {
+            width: 400px;
+            height: 400px;
+            overflow: hidden;
+            position: absolute;
+            top: 20px;
+            left: 460px;
+            display: none; }
+            #details .detailsBox .dLeft .dInfo .infoLeft .bigPic li {
+              display: none; }
+              #details .detailsBox .dLeft .dInfo .infoLeft .bigPic li img {
+                position: absolute;
+                left: 0;
+                top: 0; }
+            #details .detailsBox .dLeft .dInfo .infoLeft .bigPic .active {
+              display: block; }
+          #details .detailsBox .dLeft .dInfo .infoLeft .mask {
+            width: 200px;
+            height: 200px;
+            background: paleturquoise;
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0.3;
+            display: none;
+            cursor: move;
+            z-index: 1000; }
+        #details .detailsBox .dLeft .dInfo .infoRight {
+          float: left;
+          padding: 0 20px 20px 0;
+          width: 498px;
+          z-index: 50; }
+          #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap {
+            position: relative;
+            padding-left: 18px; }
+            #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .title {
+              padding: 20px 0 10px !important;
+              position: relative; }
+              #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .title h3 {
+                min-height: 21px;
+                _height: 21px;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 21px;
+                color: #3C3C3C; }
+            #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .brand {
+              padding-bottom: 5px; }
+              #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .brand img {
+                vertical-align: top;
+                border: 0;
+                margin-right: 5px; }
+            #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .mainInfo {
+              padding: 10px;
+              background-color: #FFF2E8;
+              position: relative;
+              min-height: 35px;
+              _height: 35px;
+              zoom: 1; }
+              #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .mainInfo li {
+                line-height: 24px;
+                margin-bottom: 2px; }
+              #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .mainInfo .beforePriceBox {
+                margin-bottom: 5px;
+                width: 345px; }
+                #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .mainInfo .beforePriceBox span {
+                  float: left;
+                  width: 60px;
+                  color: #6c6c6c; }
+                #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .mainInfo .beforePriceBox strong {
+                  position: relative;
+                  top: -2px;
+                  vertical-align: middle;
+                  padding-right: 5px;
+                  font-family: Tahoma,Arial,Helvetica,sans-serif;
+                  overflow: hidden;
+                  font-size: 14px;
+                  color: #3c3c3c;
+                  font-weight: 400;
+                  text-decoration: line-through; }
+                  #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .mainInfo .beforePriceBox strong .rmb {
+                    font-family: arial;
+                    font-weight: 400;
+                    margin-right: 4px;
+                    font-size: normal; }
+              #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .mainInfo .tbPrice {
+                position: relative;
+                margin-bottom: 5px;
+                width: auto; }
+                #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .mainInfo .tbPrice span {
+                  float: left;
+                  width: 60px;
+                  color: #6c6c6c;
+                  margin-top: 2px; }
+                #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .mainInfo .tbPrice .tbCont {
+                  width: 360px;
+                  margin-top: 5px;
+                  margin-bottom: -5px;
+                  float: left; }
+                  #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .mainInfo .tbPrice .tbCont .contentBox strong {
+                    position: static;
+                    display: inline;
+                    float: left;
+                    padding: 0;
+                    margin-right: 10px;
+                    vertical-align: baseline;
+                    font-size: 26px;
+                    font-weight: 700;
+                    font-family: Tahoma,Arial,Helvetica,sans-serif;
+                    color: #F40; }
+                  #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .mainInfo .tbPrice .tbCont .contentBox span {
+                    padding: 0 4px;
+                    height: 18px;
+                    line-height: 18px;
+                    color: #FFF;
+                    background: #FF8E1B; }
+                  #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .mainInfo .tbPrice .tbCont .borderBox {
+                    position: absolute;
+                    top: 32px;
+                    left: -10px;
+                    z-index: 10;
+                    width: 478px;
+                    border: 1px solid #F5F5F5;
+                    border-top: none;
+                    background: #FFF;
+                    overflow: hidden; }
+              #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .mainInfo .discount span {
+                float: left;
+                width: 60px;
+                color: #6c6c6c;
+                position: relative;
+                top: 5px; }
+              #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .mainInfo .discount .otherDiscount {
+                margin: 4px -10px -10px;
+                background-color: #FFF9F5;
+                padding: 0 10px 5px 70px;
+                line-height: 15px;
+                font-size: 12px;
+                color: #3c3c3c; }
+                #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .mainInfo .discount .otherDiscount .discountContent {
+                  padding-top: 5px;
+                  height: 25px;
+                  line-height: 25px;
+                  font-size: 12px;
+                  color: #3c3c3c;
+                  overflow: hidden; }
+                  #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .mainInfo .discount .otherDiscount .discountContent .icon-taojinbi {
+                    float: left;
+                    margin: 3px 5px 0 0;
+                    color: #ffcd29;
+                    font-size: 20px; }
+                  #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .mainInfo .discount .otherDiscount .discountContent strong {
+                    font-weight: bold;
+                    line-height: 35px; }
+                #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .mainInfo .discount .otherDiscount .dis_discount {
+                  border-top: 1px solid #FFF2E8;
+                  padding-top: 5px;
+                  line-height: 25px;
+                  font-size: 12px;
+                  color: #3c3c3c; }
+                  #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .mainInfo .discount .otherDiscount .dis_discount .box {
+                    line-height: 25px;
+                    vertical-align: middle; }
+                    #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .mainInfo .discount .otherDiscount .dis_discount .box img {
+                      margin-right: 5px;
+                      margin-top: -3px;
+                      vertical-align: middle; }
+                    #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .mainInfo .discount .otherDiscount .dis_discount .box a {
+                      margin-left: 5px;
+                      border-bottom: 1px dotted #f40;
+                      color: #f40; }
+            #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .comment {
+              position: absolute;
+              top: 84px;
+              right: 10px; }
+              #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .comment .commentsNum {
+                display: block;
+                padding: 0 9px;
+                float: left;
+                text-align: center;
+                color: #6C6C6C;
+                outline: none;
+                text-align: center; }
+              #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .comment .sell {
+                border: none;
+                padding-right: 0;
+                padding-left: 9px;
+                border-left: 1px solid #ffe4d0;
+                float: left;
+                text-align: center;
+                color: #6c6c6c; }
+              #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .comment strong {
+                display: block;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 18px; }
+            #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .line {
+              margin-bottom: 10px;
+              margin-top: 34px;
+              position: relative;
+              height: 1px;
+              border-bottom: 1px dotted #D9D9D9;
+              overflow: hidden; }
+            #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .sure {
+              padding-left: 18px;
+              padding-bottom: 5px;
+              margin-bottom: 20px;
+              position: relative;
+              margin: -9px 0 29px -9px;
+              padding: 9px 0 0 9px;
+              border: 1px solid #FFF; }
+              #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .sure .sureWrap {
+                position: relative;
+                color: #3c3c3c;
+                padding-left: 10px; }
+                #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .sure .sureWrap .size {
+                  margin-bottom: 20px; }
+                  #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .sure .sureWrap .size dt {
+                    float: left;
+                    margin-right: 5px;
+                    width: 55px;
+                    color: #6C6C6C; }
+                  #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .sure .sureWrap .size dd {
+                    float: left;
+                    position: relative;
+                    margin: 0 5px 10px 0;
+                    vertical-align: middle;
+                    line-height: 20px;
+                    background: #FFF; }
+                    #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .sure .sureWrap .size dd a {
+                      padding: 2px 5px;
+                      color: rgba(255, 68, 0, 0.8);
+                      border: 2px solid #F40;
+                      background: #FFF;
+                      display: inline-block;
+                      white-space: nowrap;
+                      text-align: center;
+                      min-width: 10px; }
+              #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .sure span {
+                position: absolute;
+                right: -0;
+                cursor: pointer;
+                width: 68px;
+                height: 20px;
+                padding: 0 5px;
+                overflow: hidden;
+                top: -20px;
+                background: #fff;
+                z-index: 99;
+                letter-spacing: 4px;
+                color: #727272;
+                font-weight: bold; }
+              #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .sure .color {
+                margin-bottom: 20px;
+                overflow: hidden; }
+                #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .sure .color dt {
+                  float: left;
+                  margin-right: 5px;
+                  width: 55px;
+                  color: #6C6C6C; }
+                #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .sure .color dd {
+                  float: left;
+                  position: relative;
+                  margin: 0 5px 10px 0;
+                  vertical-align: middle;
+                  line-height: 20px;
+                  background: #FFF; }
+                  #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .sure .color dd a {
+                    display: block;
+                    padding: 0 5px;
+                    color: rgba(255, 68, 0, 0.8);
+                    border: 2px solid #F40;
+                    background: #FFF;
+                    height: 32px;
+                    line-height: 32px;
+                    text-align: center;
+                    min-width: 32px; }
+              #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .sure .count {
+                margin-bottom: 20px;
+                line-height: 28px; }
+                #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .sure .count dt {
+                  float: left;
+                  margin-right: 5px;
+                  width: 55px;
+                  color: #6C6C6C; }
+                #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .sure .count dd div {
+                  position: relative;
+                  float: left;
+                  top: 0;
+                  left: 0;
+                  line-height: 28px; }
+                  #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .sure .count dd div .reduce {
+                    color: #ccc;
+                    cursor: pointer;
+                    background-color: #ededed;
+                    display: block;
+                    float: left;
+                    width: 26px;
+                    height: 26px;
+                    border: 1px solid #ccc;
+                    line-height: 26px;
+                    padding: 0;
+                    text-align: center;
+                    outline: none;
+                    border-right: 0 !important;
+                    overflow: hidden; }
+                    #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .sure .count dd div .reduce .icon-minus {
+                      color: #333; }
+                  #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .sure .count dd div .ipt {
+                    float: left;
+                    margin: 0;
+                    padding: 0;
+                    width: 48px;
+                    height: 26px;
+                    font-size: 16px;
+                    line-height: 26px;
+                    text-align: center;
+                    color: #666;
+                    border: 1px solid #CCC;
+                    outline: 0;
+                    background: #FFF; }
+                  #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .sure .count dd div .add {
+                    float: left;
+                    width: 26px;
+                    height: 26px;
+                    border: 1px solid #ccc;
+                    line-height: 26px;
+                    padding: 0;
+                    text-align: center;
+                    background-color: #ededed;
+                    overflow: hidden;
+                    display: block;
+                    outline: none; }
+                    #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .sure .count dd div .add .icon-add {
+                      color: #333;
+                      font-weight: bold; }
+              #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .sure .addBuy {
+                margin-top: 30px;
+                position: relative;
+                padding-left: 60px; }
+                #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .sure .addBuy a {
+                  width: 180px;
+                  color: #FFF;
+                  border-color: #F40;
+                  background: #F40;
+                  display: block;
+                  cursor: pointer;
+                  height: 38px;
+                  text-align: center;
+                  font-family: "Hiragino Sans GB","microsoft yahei",sans-serif;
+                  font-size: 16px;
+                  line-height: 38px;
+                  border-width: 1px;
+                  border-style: solid;
+                  transition: all .6s;
+                  -webkit-transition: all .4s;
+                  -moz-transition: all .4s;
+                  -o-transition: all .4s; }
+                  #details .detailsBox .dLeft .dInfo .infoRight .infoRightWrap .sure .addBuy a:hover {
+                    border-color: #F22D00;
+                    background: #F22D00; }
+
+#advice {
+  background: url("../imgs/detailsFoot.png") no-repeat center;
+  height: 565px;
+  margin: 20px auto; }
+
+#footer {
+  min-height: 150px;
+  background: #fff;
+  font-size: 12px; }
+  #footer .footer_nav {
+    padding-top: 7px;
+    border-top: 1px solid #ddd;
+    margin-bottom: 8px;
+    line-height: 27px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+    overflow: hidden; }
+    #footer .footer_nav span {
+      color: #9c9c9c;
+      margin: 0 4px; }
+      #footer .footer_nav span a {
+        white-space: nowrap;
+        color: #6c6c6c;
+        text-decoration: none;
+        transition: all .2s;
+        -webkit-transition: all .2s;
+        -moz-transition: all .2s;
+        -o-transition: all .2s; }
+        #footer .footer_nav span a:hover {
+          color: #f40; }
+    #footer .footer_nav b {
+      margin: 0 3px;
+      font-weight: 400;
+      color: #ddd; }
+  #footer .copyright p {
+    padding-bottom: 8px;
+    overflow: hidden; }
+    #footer .copyright p span {
+      margin: 0 4px;
+      color: #9c9c9c; }
+      #footer .copyright p span:hover a {
+        color: #f40; }
+      #footer .copyright p span a {
+        white-space: nowrap;
+        color: #6c6c6c;
+        transition: all .4s;
+        -webkit-transition: all .4s;
+        -moz-transition: all .4s;
+        -o-transition: all .4s; }
+      #footer .copyright p span .footer_icon {
+        background-image: url("../imgs/footer_sprite.jpg");
+        background-repeat: no-repeat;
+        vertical-align: middle;
+        display: inline-block; }
+    #footer .copyright p b {
+      margin: 0 3px;
+      font-weight: 400;
+      color: #ddd; }
+    #footer .copyright p em {
+      margin-left: 30px;
+      font-style: normal;
+      color: #9c9c9c; }
+    #footer .copyright p .i1 {
+      background-position: -861px 0px;
+      width: 20px;
+      height: 20px;
+      margin: 0 4px; }
+  #footer .footer_foot {
+    margin-left: auto;
+    margin-right: auto; }
+    #footer .footer_foot span {
+      margin: 0 4px;
+      color: #9c9c9c; }
+      #footer .footer_foot span a {
+        margin-right: 15px;
+        height: 40px;
+        background-repeat: no-repeat; }
+      #footer .footer_foot span .police {
+        background-image: url("../imgs/110.gif");
+        width: 36px;
+        display: inline-block;
+        vertical-align: middle; }
+      #footer .footer_foot span .dis_info {
+        background-image: url("../imgs/dis_info.png");
+        background-position: 0px -18px;
+        width: 250px;
+        display: inline-block;
+        vertical-align: middle; }
+      #footer .footer_foot span .footer_icon {
+        background-image: url("../imgs/footer_sprite.jpg");
+        background-repeat: no-repeat;
+        vertical-align: middle;
+        display: inline-block; }
+      #footer .footer_foot span .i2 {
+        background-position: 0px 0px;
+        width: 30px; }
+      #footer .footer_foot span .i3 {
+        background-position: -40px 0px;
+        width: 33px; }
+      #footer .footer_foot span .i4 {
+        background-position: -80px 0px;
+        width: 50px; }
+      #footer .footer_foot span .i5 {
+        background-position: -140px 0px;
+        width: 83px; }
+      #footer .footer_foot span .i6 {
+        background-position: -650px 0px;
+        width: 105px; }
+      #footer .footer_foot span .i7 {
+        background-position: -345px 0px;
+        width: 82px; }
+      #footer .footer_foot span .i8 {
+        background-position: -761px 0px;
+        width: 97px; }
+      #footer .footer_foot span .i9 {
+        background-position: -884px 0px;
+        width: 249px; }

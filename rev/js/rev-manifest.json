@@ -1,4 +1,11 @@
 {
-  "index.js": "index-4711f0ff26.js",
-  "list.js": "list-55dc1d203c.js"
+  "ajax.js": "ajax-1efe6cb65b.js",
+  "animate.js": "animate-9a80d1aa8c.js",
+  "fdj.js": "fdj-b49db6fd6a.js",
+  "goodsDetails.js": "goodsDetails-b0f872be29.js",
+  "index.js": "index-dfc2585e57.js",
+  "jquery.min.js": "jquery-c57bc7c588.min.js",
+  "list.js": "list-55dc1d203c.js",
+  "login.js": "login-8396850318.js",
+  "register.js": "register-ea17dcc27d.js"
 }

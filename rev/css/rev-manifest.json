@@ -1,4 +1,8 @@
 {
-  "index.css": "index-97325b648d.css",
-  "list.css": "list-786f642472.css"
+  "goodsDetails.css": "goodsDetails-62dca0e5c8.css",
+  "index.css": "index-10db4e011c.css",
+  "list.css": "list-9e10b38e70.css",
+  "login.css": "login-6f9546f314.css",
+  "register.css": "register-bbd4256e0b.css",
+  "reset.css": "reset-a08c5715b8.css"
 }
