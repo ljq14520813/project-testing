@@ -226,6 +226,7 @@
     .detailsBox{
         margin-bottom: 20px;
         border: 1px solid #E8E8E8;
+        min-height: 588px;
         .dLeft{
             float: left;
             width: 100%;
@@ -253,9 +254,6 @@
                             display: none;
                             vertical-align: middle;
                             text-align: center;
-                            img{
-                                // vertical-align: middle;
-                            }
                         }
                     }
                     .littlePic{
